@@ -1,13 +1,13 @@
-class Book{
-  constructor(name, author, yearOfPublic){
+class Book{//создаем класс
+  constructor(name, author, yearOfPublic){//делаем контруктор для данных о книге
     this.name = name,
     this.author = author,
     this.yearOfPublic = yearOfPublic
   }
-  getName(){
+  getName(){//получаем имя через this
     return this.name
   }
-  setName(newName){
+  setName(newName){//устанавливаем новое имя через this и передаем значение функции
     this.name = newName;
   }
   getAuthor(){

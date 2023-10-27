@@ -1,21 +1,21 @@
-class Shape{
-  constructor(a, b) {
+class Shape{//создаем класс
+  constructor(a, b) {//создаем конструктор
     this.a = a;
     this.b = b;
   }
 
-  get area() {
+  get area() {//узнаем площадь 
     return this.a * this.b;
   }
 
-  get perimeter() {
+  get perimeter() {//узнаем периметр
     return 2 * (this.a + this.b);
   }
 }
 
-class Rectangle extends Shape {
+class Rectangle extends Shape {//используем наследование
   constructor(a, b) {
-    super(a, b);
+    super(a, b);//берем из родителя ключи конструктора и передаем в них значения
   }
 }
 

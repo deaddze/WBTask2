@@ -10,7 +10,7 @@ const arr = [
   },
 ];
 
-function getReturns(arr){
+function getReturns(arr){//используем итеративный способ
   return function(){//возвращаем внутреннюю фнукцию
     const newArr = [];//создаем пустой массив
     for(let func of arr){//перебираем по циклу элементы заданного массива

@@ -4,14 +4,67 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="task-17/style.css">
+  <link rel="stylesheet" href="task-29/style.css">
+  <link rel="stylesheet" href="task-19/style.css">
+  <link rel="stylesheet" href="task-27/style.css">
   <title>Document</title>
 </head>
 <body>
+  <div class="task-17">
+    <input type="search" id="geocodingInput" placeholder="Поиск по адресу">
+    <ul id="list">
+    </ul>
+  </div>
+  <h1>Таблица данных</h1>
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th data-index="fname">First Name</th>
+        <th data-index="lname">Last Name</th>
+        <th data-index="tel">Phone</th>
+        <th data-index="address">Address</th>
+        <th data-index="city">City</th>
+        <th data-index="state">State</th>
+        <th data-index="zip">Zip</th>
+      </tr>
+    </thead>
+    <tbody id="data-body">
+    </tbody>
+  </table>
+  <div id="pagination">
+    <button id="prev">Предыдущая</button>
+    <button id="next">Следующая</button>
+  </div>
+  <ul class="t-list">
+    
+  </ul>
+  <template id="myTemplate">
+    <li class="template-element">
+      <h2>Имя</h2>
+      <p></p>
+    </li>
+  </template>
+  <form id="form">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit" id="sendBtn">Отправить</button>
+  </form>
+  <div class="posts">
+    <ul class="posts__list">
+    </ul>
+  </div>
+  <div id="myElement">
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="task-1/script.js"></script>
   <script src="task-2/script.js"></script>
   <script src="task-3/script.js"></script>
   <script type="module" src="task-4/script.js"></script>
   <script type="module" src="task-4/function.js"></script>
+  <script src="task-5/script.js"></script>
   <script src="task-6/script.js"></script>
   <script src="task-7/script.js"></script>
   <script src="task-8/script.js"></script>
@@ -22,5 +75,20 @@
   <script src="task-13/script.js"></script>
   <script src="task-14/script.js"></script>
   <script src="task-15/script.js"></script>
+  <script type="module" src="task-16/script.js"></script>
+  <script type="module" src="task-16/script2.js"></script>
+  <script src="task-17/script.js"></script>
+  <script src="task-18/script.js"></script>
+  <script src="task-19/script.js"></script>
+  <script src="task-20/script.js"></script>
+  <script src="task-21/script.js"></script>
+  <script src="task-22/script.js"></script>
+  <script src="task-23/script.js"></script>
+  <script src="task-24/script.js"></script>
+  <script src="task-25/script.js"></script>
+  <script src="task-26/script.js"></script>
+  <script src="task-27/script.js"></script>
+  <script src="task-28/script.js"></script>
+  <script src="task-29/script.js"></script>
 </body>
 </html>
